@@ -3,17 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package netbeansgittest;
+package edu.jsu.mcis;
 
 /**
  *
  * @author lmoll
  */
-public class TestClass {
-
-    public static String testMethod1() {
-return "Hello, World!";
-   
+public class Main {
+    public static void main(String[] args) {
+     System.out.println(TestClass.testMethod1());   
     }
     
 }
+
